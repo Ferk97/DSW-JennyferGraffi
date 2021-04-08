@@ -41,7 +41,8 @@ nav ul li {position:relative;}
 img{width: 99%;}
 .autor img {width: 10%;border-radius: 50px;}
 
-footer{min-height: 200px;background-color:#736893;}
-footer .d1,footer .d2{width: 33%;text-align: center;}
-footer .d1 img{width: 50%;margin-top:15%;}
+footer{min-height: 200px;background-color:#688693;}
+footer .d1,footer .d2{text-align: center;}
+footer .d1 img{width: 15%;margin-top:2%;text-align: center;}
+
 
