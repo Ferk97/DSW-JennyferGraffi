@@ -1,0 +1,50 @@
+body{background-image: url(../img/fondopag.jpg);background-size: 100%;font-family: 'Times New Roman', Times, serif;font-size: 12px;}
+
+h1{color: #18121B;font-size: 2em;text-align: center;}
+
+/* Barra de navegacion "NAV" */
+nav{ text-align: center;}
+nav li{
+    transition-duration: 1s;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: #71AAB8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    width: 15%;   
+}
+nav li:hover{transition-duration: .5s;background-color: rgb(0, 238, 255);padding-top: .1%;padding-bottom: .1%;}
+nav ul ul {display:none;position:absolute;padding:0;}
+nav ul ul li {float:none;width:100%;}     
+nav ul ul a {padding:10px 15px;}
+nav ul li:hover > ul {display:block;}
+nav ul li {position:relative;}
+/*FIN Barra Navegacion*/
+
+/*Index*/
+.index .s1{width: 50%;float: left;}
+.index .s2{width: 50%;float: right;text-align: center;}
+.index .s2 img{width:50%}
+/*FIN INDEX*/
+
+.tema1 .div{width: 100%;float: left;}
+.tema1 .s1{width:40%;float: left;}
+.tema1 .as1 { width: 35%;float: left;}
+.tema1 .as2 {width: 25%;float: right;}
+.tema1 .s2{width: 100%;}
+
+.tema2 .div{width: 100%;float: left;}
+.tema2 .s1{width: 60%;float: left;}
+.tema2 .as1 { width: 40%;float: right;}
+.tema2 .s2{width: 100%;}
+
+
+img{width: 50%;}
+.autor img {width: 10%;border-radius: 50px;}
+
+
+footer{min-height: 200px;background-color:#688693;}
+footer .d1,footer .d2{text-align: center;}
+footer .d1 img{width: 15%;margin-top:2%;text-align: center;}
+
+
